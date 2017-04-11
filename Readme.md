@@ -1,6 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Леся Овчинникова](https://up.htmlacademy.ru/htmlcss/17/user/225720).
+* Студент: [Леся Овчинникова >^-^<](https://up.htmlacademy.ru/htmlcss/17/user/225720).
+* Наставник: [Евгений Алипкин] (https://htmlacademy.ru/profile/ealipkin).
 
 ---
 
