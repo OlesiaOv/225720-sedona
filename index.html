@@ -5,8 +5,117 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <main class="container">
+      <div class="logo">
+        <img src="#" width="" height="" alt="City of Sedona">
+      </div>
+      <div class="greeting">
+        <img src="#" alt="Sedona">
+        <b class="greeting-welcome">Welcome <span class="greeting-emphasis">to the gorgeous</span></b>
+        <h1>Sedona</h1>
+        <b class="greeting-moto">"Because the Grand Canyon sucks!"</b>
+        <p class="greeting-text-1">Седона- небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="greeting-text-2">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </div>
+      <div class="reasons">
+        <ul class="reasons-list">
+         <li class="reason-1">
+           <b class="reasons-name">Настоящий городок</b>
+           <b class="reasons-number">№1</b>
+           <p class="reasons-descriptin">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+           <img src="" width="" height="" alt="">
+        </li>
+        <li class="reasons-aspect-1">
+          <img src="" width="" height="" alt="Жилье">
+          <b class="aspect-name">Жилье</b>
+          <p class="aspect-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </li>
+        <li class="reasons-aspect-2">
+          <img src="" width="" height="" alt="Еда">
+          <b class="aspect-name">Еда</b>
+          <p class="aspect-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </li>
+        <li class="reasons-aspect-3">
+          <img src="" width="" height="" alt="Сувениры">
+          <b class="aspect-name">Сувениры</b>
+          <p class="aspect-text">Не только китайского, но и местного производства!</p>
+        </li>
+        <li class="reason-2">
+          <img src="" width="" height="" alt="">
+          <b class="reasons-name">Там есть мост дьявола</b>
+          <b class="reasons-number">№2</b>
+          <p class="reasons-descriptin">Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
+       </li>
+       <li>
+         <b class="reasons-name">Небольшая площадь</b>
+         <b class="reasons-number">№3</b>
+         <p class="reasons-descriptin">Все достопримечательности находятся очень близко</p>
+       </li>
+       <li>
+         <b class="reasons-name">Красивая дорога</b>
+         <b class="reasons-number">№4</b>
+         <p class="reasons-descriptin">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+       </li>
+       <li>
+         <b class="reasons-name">Мало туристов</b>
+         <b class="reasons-number">№5</b>
+         <p class="reasons-descriptin">Большинство едет в Гранд Каньон и толпится там</p>
+       </li>
+      </div>
+      <div class="booking">
+        <b class="booking-question">Заинтересовались?</b>
+        <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+        <h2 class="booking-form-name">Поиск гостиницы в Седоне</h2>
+        <form class="booking-form" action="index.html" method="post">
+          <label for="arrival">Дата заезда:</label><input type="date" id="arrival" name="date-arrival" value="">
+          <label for="departure">Дата выезда:</label><input type="date" id="departure" name="date-adeparture" value="">
+          <label for="adults">Взрослые:</label>
+          <button class="less" type="button">-</button>
+          <input type="text" id="adults" name="adults-number" value="">
+          <button class="more" type="button">+</button>
+          <label for="children">Дети:</label>
+          <button class="less" type="button">-</button>
+          <input type="text" id="adults" name="children-number" value="">
+          <button class="more" type="button">+</button>
+          <button type="button" name="button">Найти</button>
+        </form>
+      <div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="search">
+          #VISITSEDONA
+        </div>
+        <section class="footer-social">
+          <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-yt" href="#">Youtube</a>
+        </section>
+        <section class="footer-copyright">
+          <a class="btn" href="https://htmlacademy.ru"><img src="#" alt="HTML Academy"></a>
+        </section>
+      </div>
+    </footer>
 
   </body>
 </html>
